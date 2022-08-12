@@ -1,0 +1,46 @@
+Started by user [8mha:////4DlXo49WKSheStg5swDE2gUxpbNAYT/jDhID02zUjJ6iAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxBoBn6pcWpRfoFpXmpqSUZ2aW5iUUA69ZGK8cAAAA=[0mPUNEETH KUMAR P R
+Running as SYSTEM
+Building remotely on [8mha:////4OJEgYWWky+R+6CAaZL6CTstviV0MQp9bM9Hn05A62sPAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /home/ec2-user/workspace/c job
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/puneethkumarpr/demo.git
+ > git init /home/ec2-user/workspace/c job # timeout=10
+Fetching upstream changes from https://github.com/puneethkumarpr/demo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.31.1'
+ > git fetch --tags --force --progress -- https://github.com/puneethkumarpr/demo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/puneethkumarpr/demo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 919c96da78787237051322f8fe461e2e994c9f6f (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 919c96da78787237051322f8fe461e2e994c9f6f # timeout=10
+Commit message: "Update file1"
+ > git rev-list --no-walk 919c96da78787237051322f8fe461e2e994c9f6f # timeout=10
+[c job] $ /bin/sh -xe /tmp/jenkins6132765176505351098.sh
++ make
+gcc -c main.c
+main.c: In function ‘main’:
+main.c:4:9: warning: implicit declaration of function ‘big3’ [-Wimplicit-function-declaration]
+         big3();
+         ^~~~
+main.c:5:9: warning: implicit declaration of function ‘fact’ [-Wimplicit-function-declaration]
+         fact();
+         ^~~~
+main.c:6:9: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+         reverse();
+         ^~~~~~~
+main.c:7:9: warning: implicit declaration of function ‘palindrome’ [-Wimplicit-function-declaration]
+         palindrome();
+         ^~~~~~~~~~
+gcc -c big3.c
+gcc -c fact.c
+gcc -c reverse.c
+reverse.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ reverse()
+ ^~~~~~~
+gcc -c palindrome.c
+gcc -o ABC.exe main.o big3.o fact.o reverse.o palindrome.o
+Finished: SUCCESS

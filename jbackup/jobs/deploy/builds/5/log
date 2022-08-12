@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4M01Y/u4KqeLCQh3uqOFpB97HSj7cgXZPjf6XqbZrFy7AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JH2QObq5ZXm6BUX5WanJJfoA7PZr98sAAAA=[0mjava-mvn-project" build number [8mha:////4JmjhtYc6fhj/rjfUPivB+q2LusDv+Nb3bwukJuoOW/gAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBnH9rPwkfZA5urlleboFRflZqckl+mYAgmouBcwAAAA=[0m6
+originally caused by:
+ Started by GitHub push by puneethkumarpr
+Running as SYSTEM
+Building remotely on [8mha:////4N1gaH8ZA69opbAlkNaQUJZ2jKXF9C93oTYeO1CM1SbvAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygO40AumLp3sQAAAA=[0mnode2 in workspace /home/ec2-user/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins6586751202475121121.sh
++ cd /home/ec2-user/workspace/java-mvn-project/target
++ scp hello-world-war-1.0.0.war root@172.31.25.93:/usr/local/tomcat9/webapp
+Triggering a new build of [8mha:////4Jxes1bTUMRQJOLFOZD8QJwj/73xEAL8BBJebEEYOF/TAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JP2gUL+S1OISfQCisljVwgAAAA==[0mRUNtest
+Finished: SUCCESS

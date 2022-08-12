@@ -1,0 +1,26 @@
+Started by user [8mha:////4DlXo49WKSheStg5swDE2gUxpbNAYT/jDhID02zUjJ6iAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxBoBn6pcWpRfoFpXmpqSUZ2aW5iUUA69ZGK8cAAAA=[0mPUNEETH KUMAR P R
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/c job
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/puneethkumarpr/demo.git
+ > git init /var/lib/jenkins/workspace/c job # timeout=10
+Fetching upstream changes from https://github.com/puneethkumarpr/demo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.31.1'
+ > git fetch --tags --force --progress -- https://github.com/puneethkumarpr/demo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/puneethkumarpr/demo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 919c96da78787237051322f8fe461e2e994c9f6f (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 919c96da78787237051322f8fe461e2e994c9f6f # timeout=10
+Commit message: "Update file1"
+First time build. Skipping changelog.
+[c job] $ /bin/sh -xe /tmp/jenkins12780768303269437321.sh
++ make
+/tmp/jenkins12780768303269437321.sh: line 2: make: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

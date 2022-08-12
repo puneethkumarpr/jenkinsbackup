@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4IbDIOQttRDI/2tP167eynvxOBPLU7c92/4/h5+jRtjAAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYp/az8JH2QOapGBrlleUCyoCg/KzW5RB8ARuoWZc8AAAA=[0mjava mvn project" build number [8mha:////4OVCBQzZHMR6ac/UEKa9ctrLJH7YF8IcUHGLSUI46OoYAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmn9rPwkfZA5qkYGuWV5QLKgKD8rNblE3xgACOQkE9AAAAA=[0m3
+originally caused by:
+ Started by user [8mha:////4DlXo49WKSheStg5swDE2gUxpbNAYT/jDhID02zUjJ6iAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxBoBn6pcWpRfoFpXmpqSUZ2aW5iUUA69ZGK8cAAAA=[0mPUNEETH KUMAR P R
+Running as SYSTEM
+Building remotely on [8mha:////4N1gaH8ZA69opbAlkNaQUJZ2jKXF9C93oTYeO1CM1SbvAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygO40AumLp3sQAAAA=[0mnode2 in workspace /home/ec2-user/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins1206876802457171604.sh
++ cd /home/ec2-user/workspace1/java mvn project/target
+/tmp/jenkins1206876802457171604.sh: line 2: cd: too many arguments
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
